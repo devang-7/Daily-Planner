@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //To use static css in the website
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-devang:test123@cluster0.okgfj.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://xxxxx", {
   useNewUrlParser: true,
 });
 
